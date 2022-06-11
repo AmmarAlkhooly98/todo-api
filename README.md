@@ -6,6 +6,10 @@ Todo API V1
 
 [Todo API v1 documentation](https://documenter.getpostman.com/view/7504301/UyxqAhrr#intro)
 
+[React todo Repo using this API](https://github.com/AmmarAlkhooly98/todo-client)
+
+[Checkout the deployed react app using this API](https://ammar-todo-app.herokuapp.com/)
+
 ## tech stack used
 
 1. Nodejs/express.js
