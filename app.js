@@ -7,7 +7,7 @@ let cookieParser = require("cookie-parser");
 const models = require("./models");
 
 const app = express();
-const PORT = 8000;
+const PORT = process.env.PORT || 8000;
 
 app.use(logger("dev"));
 app.use(express.json());
