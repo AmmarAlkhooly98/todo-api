@@ -16,7 +16,8 @@ app.use(cors());
 app.use(cookieParser());
 
 app.get("/", (req, res) => {
-  res.send("Welcome to the todo api");
+  let welcomeHTML = `<h1>Welcome to the todo api</h1> <a target="_blank"  href="https://documenter.getpostman.com/view/7504301/UyxqAhrr#intro">click here for API V1 Doc</a>`;
+  res.send(welcomeHTML);
 });
 
 app.use("/api/v1", require("./routes/apiRoutesV1.js"));
