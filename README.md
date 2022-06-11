@@ -6,6 +6,13 @@ Todo API V1
 
 [Todo API v1 documentation](https://documenter.getpostman.com/view/7504301/UyxqAhrr#intro)
 
+## tech stack used
+
+1. Nodejs/express.js
+2. MySQL
+3. Sequelize ORM
+4. Sequelize Migrations
+
 ## Requirements
 
 1. sequelize-cli
