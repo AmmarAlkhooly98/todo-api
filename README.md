@@ -27,8 +27,8 @@ Todo API V1
 ## Getting started
 
 1. npm i
-2. sequelize db:create
-3. sequelize db:migrate
-4. create a .env file and use the .env.example file to reference env variable names
+2. create a .env file, use the .env.example file to reference env variable names for your own environment values
+3. sequelize db:create
+4. sequelize db:migrate
 5. create a firebase project, and create storage from the console, and add the api credentials in the .env file
 6. npm run dev
