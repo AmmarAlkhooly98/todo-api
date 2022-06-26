@@ -32,4 +32,3 @@ Todo API V1
 4. sequelize db:migrate
 5. create a firebase project, and create storage from the console, and add the api credentials in the .env file
 6. npm run dev
-7. 
